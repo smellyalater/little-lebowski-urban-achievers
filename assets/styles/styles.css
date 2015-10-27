@@ -195,6 +195,36 @@ article {
     font-weight: bold;
 }
 
+.fancy-input{
+    /*max-width: 500px;*/
+    width: 500px;
+    background: #FFF;
+    padding: 20px 30px 20px 10px;
+    margin: 10px 0;
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #DDD;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.fancy-button{
+    width: 100px;
+    background: #D3E494;
+    padding: 20px 30px 20px 10px;
+    margin: 10px 0;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #C4D384;
+    border:1px solid #DDD;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
 
 
 
