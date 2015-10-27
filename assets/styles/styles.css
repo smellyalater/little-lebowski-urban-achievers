@@ -170,7 +170,7 @@ h1 {
 
 .learn h1 {
     text-align: center;
-    color: black;
+    color: #7c7969;
     margin: 40px 0;
 }
 
@@ -183,6 +183,18 @@ article {
     width: 60%;
     margin: 40px auto;
 }
+
+.contact h1 {
+    color: #7c7969;
+}
+
+.paragraph-highlight {
+    text-transform: uppercase;
+    color: #EE6E3D;
+    font-weight: bold;
+}
+
+
 
 
 
