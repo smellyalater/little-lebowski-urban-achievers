@@ -38,7 +38,7 @@ li {
     /*color: white;*/
 }
 
-a {
+.nav-buttons a {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     font-size: 16px;
@@ -76,8 +76,17 @@ a:active {
     color: #ef6a6f;
 }
 
+nav.nav-bar.fixed {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+}
 
-/*Andy's Code*/
+container {
+    position: absolute;
+    top: 100px;
+}
+
 
 .bg {
     background-image: url('../images/bowlingBG.jpg');
@@ -127,11 +136,13 @@ h1 {
 
 .callout-tile {
     width: 46%;
-    display: inline-block;
+    height: 500px;
+    display: block;
     float: left;
-    margin: 10px;
-   /* box-shadow: 2px 2px 20px grey;*/
+    margin: 1%;
     padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px #ccc;
 }
 
 .callout-tile h1 {
@@ -140,12 +151,38 @@ h1 {
 }
 
 .callout-tile img {
-    width: 300px;
-    height: 300px;
+    width: 55%;
+    height: auto;
     margin: 0 auto;
     display: block;
 }
 
+.callout-tile a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.img-container {
+    width: 100%;
+    height: 320px;
+}
+
+.learn h1 {
+    text-align: center;
+    color: black;
+    margin: 40px 0;
+}
+
+.hero-image img {
+    margin: 0 auto;
+    display: block;
+}
+
+article {
+    width: 60%;
+    margin: 40px auto;
+}
 
 
 
