@@ -152,6 +152,7 @@ h1 {
 
 .callout-tile img {
     width: 55%;
+    max-width: 320px;
     height: auto;
     margin: 0 auto;
     display: block;
